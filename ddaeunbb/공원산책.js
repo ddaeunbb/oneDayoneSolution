@@ -1,12 +1,12 @@
 function solution(park, routes) {
-  let pos = [0, 0];
-  const dict = {
-      E: [0, 1],
-      W: [0, -1],
-      S: [1, 0],
-      N: [-1, 0]
-  };
-  
+    let pos = [0, 0];
+    const dict = {
+        E: [0, 1],
+        W: [0, -1],
+        S: [1, 0],
+        N: [-1, 0]
+    };
+    
   // 시작 위치 찾기
   for(let i = 0; i < park.length; i++) {
       const findedIdx = park[i].indexOf('S');
